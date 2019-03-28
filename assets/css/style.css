@@ -1,0 +1,62 @@
+html{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    background: url(../images/background.jpg) no-repeat top center;
+    background-color: black; 
+}
+
+h1{
+    margin-top: 270px;
+    margin-bottom: 10px;
+}
+
+#timer{
+    font-size: 10px;
+    margin: 30px;
+}
+
+#btnStart{
+    font-family: 'Cinzel', serif;
+    background-color: dimgray;
+    color: white;
+    margin: 35px;
+    font-size: 20px;
+}
+#btnSubmit{
+    font-family: 'Cinzel', serif;
+    background-color: dimgray;
+    color: white;
+    margin: 35px;
+    font-size: 20px;
+}
+
+#btnReset{
+    font-family: 'Cinzel', serif;
+    background-color: dimgray;
+    color: white;
+    margin: 35px;
+    font-size: 20px;
+}
+
+i{
+    color: white;
+    position: fixed; 
+    bottom: 50px;
+    font-size: 30px;   
+}
+
+.volmute{
+    right: 50px;
+}
+
+.volunmute{
+    right: 100px;
+}
+
+footer {
+    color: red;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 80px;
+}

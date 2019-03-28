@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font -->
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Trivia Game</title>
+</head>
+<body>
+    <audio id="myAudio"><source src="./assets/audio/game-of-thrones.mp3" type="audio/mpeg"></audio>    
+
+    <div class="container">
+        <h1>The Trivia Game</h1>
+        <p id="timer"></p>
+        <div id="resultArea"></div>
+        <div id="questionArea"></div>
+        <button id="btnStart">Start</button>
+        <button id="btnSubmit">Submit</button>
+        <button id="btnReset">Start Over</button>
+    </div>
+    
+    <!-- font awesome OFF volume -->
+    <i class="fas fa-volume-mute volmute"></i>
+
+    <!-- font awesome ON volume -->
+    <i class="fas fa-volume-off volunmute"></i>
+
+    <footer id="footer"> copyright&copy; 2019 Ily M. </footer>
+
+        <!-- JQuery link -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+
+    <!-- JS link -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
