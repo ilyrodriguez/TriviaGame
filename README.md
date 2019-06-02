@@ -5,7 +5,7 @@ Test your Game of Thrones knowledge with this Trivia Game:
 
 https://ilyrodriguez.github.io/triviaGame/
 
-UCF Coding Bootcamp  -  April 2019
+UCF Coding Bootcamp  -  March 2019
 
 Technologies used:
 - HTML
