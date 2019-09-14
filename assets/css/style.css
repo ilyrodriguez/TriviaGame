@@ -17,7 +17,11 @@ h1{
     margin: 30px;
     text-decoration: underline;
 }
-
+#rules{
+    font-size: 30px;
+    margin-block-start: 70px;
+    line-height: 50px;
+}
 #questionArea{
     font-size: 20px;
     line-height: 30px;

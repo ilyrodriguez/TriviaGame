@@ -57,6 +57,7 @@ $(document).on('click', "#btnStart", function(){
     intervalId = setInterval(decrement, 1000);
     $("#btnSubmit").show();
     $("#btnStart").hide();
+    $("#rules").hide();
 }
 
 function playAudio() { 
