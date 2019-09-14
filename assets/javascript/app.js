@@ -12,7 +12,7 @@ $(document).ready(function() {
 var allQuestions = [{
     question: "At the beginning of the series, how many children do Ned and Catelyn Stark have?",
     choices: [" 4 ", " 5 ", " 6 ", " 3 "],
-    answer: " 5 ",
+    answer: " 5 "
 },
 {
     question: "Who is the first character in the series to be called King in the North?",
