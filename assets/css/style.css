@@ -3,6 +3,7 @@ html{
     text-align: center;
     background: url(../images/background.jpg) no-repeat top center;
     background-color: black; 
+    background-size: cover;
 }
 
 h1{
@@ -26,6 +27,11 @@ h1{
     font-size: 20px;
     line-height: 30px;
 }
+
+.question-line{
+font-weight: 900;
+}
+
 #resultArea{
     font-size: 30px;
     line-height: 50px;
@@ -73,6 +79,31 @@ footer {
     width: 100%;
     font-size: 14px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 94px;
     margin-bottom: 2%;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    #questionArea {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .container{
+        padding-top: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 1550px) {
+    
+    .container{
+        padding-top: 6rem;
+    }
+
+}
+
